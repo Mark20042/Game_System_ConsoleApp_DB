@@ -250,15 +250,15 @@ partial class Program
         {
             if (game.ScoreA > game.ScoreB)
             {
-                Console.WriteLine($"Game ID: {game.GameId} | Season: {game.SeasonName} | {game.TeamAName} vs {game.TeamBName} | Score: {game.ScoreA}-{game.ScoreB} | Winner: {game.TeamAName} | Started: {game.StartTime}");
+                Console.WriteLine($"Game ID: {game.GameId} | Season: {game.SeasonName} | {game.TeamAName} vs {game.TeamBName} | Score: {game.ScoreA}-{game.ScoreB} | Started: {game.StartTime}");
             }
             else if (game.ScoreB > game.ScoreA)
             {
-                Console.WriteLine($"Game ID: {game.GameId} | Season: {game.SeasonName} | {game.TeamAName} vs {game.TeamBName} | Score: {game.ScoreA}-{game.ScoreB} | Winner: {game.TeamBName} | Started: {game.StartTime}");
+                Console.WriteLine($"Game ID: {game.GameId} | Season: {game.SeasonName} | {game.TeamAName} vs {game.TeamBName} | Score: {game.ScoreA}-{game.ScoreB} | Started: {game.StartTime}");
             }
             else
             {
-                Console.WriteLine($"Game ID: {game.GameId} | Season: {game.SeasonName} | {game.TeamAName} vs {game.TeamBName} | Score: {game.ScoreA}-{game.ScoreB} | Draw | Started: {game.StartTime}");
+                Console.WriteLine($"Game ID: {game.GameId} | Season: {game.SeasonName} | {game.TeamAName} vs {game.TeamBName} | Score: {game.ScoreA}-{game.ScoreB} | Started: {game.StartTime}");
             }
         }
     }
